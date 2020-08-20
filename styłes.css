@@ -71,6 +71,15 @@ justify-content: center;
 
 
 }
+#signup{
+    border: none;
+    background-color:#FF8096;
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 37.5px;
+
+}
 #subscribe-text{
     font-size: 12px;
 }
