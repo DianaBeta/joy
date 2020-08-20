@@ -65,6 +65,10 @@ justify-content: center;
     grid-row-end: 2;
 
 }
+
+#subscribe-text{
+    font-size: 15px;
+}
 .email{
     text-align: center;
     justify-content: center;
@@ -83,11 +87,28 @@ justify-content: center;
 #subscribe-text{
     font-size: 12px;
 }
+
+.social-navbar{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    justify-content: center;
+    float: center;
+    text-decoration: none;
+    margin-bottom: 5vw;
+}
+
+.social-navbar > ul li{
+    list-style-type: none;
+}
 .navbar{
     display: flex;
     flex-direction: row;
     /*grid-row-gap: 1px;*/
 }
+
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -109,7 +130,6 @@ justify-content: center;
 
  li {
     float: left;
-    border-color: solid black;
   }
 
   li a {
