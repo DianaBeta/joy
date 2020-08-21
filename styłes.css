@@ -37,12 +37,12 @@
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1small.jpg");
+    background-image: no-repeat;
     justify-content: center;
-    object-fit: cover;
     color:white;
     border: 2px solid #FCB;
-    min-height:90vh;
+    min-height:95vh;
 }
 
 .image-posts
@@ -180,18 +180,19 @@
     padding: 10px; */
 
 
-  /* Medium Screens */@media (min-width: 600px) and (max-width:900px) {
-    .container {
-        grid-template-columns:   repeat(3, 1fr);
-        grid-template-rows: 10vw repeat(1,1fr) 10vw;
-        grid-gap:1em;
-        grid-gap:15px;
-        grid-template-areas:
-             "h h h"
-             "t t t"
-             "c c c"
-             "f f f";
-    }
+  /* Medium Screens */
+  @media (min-width: 600px) and (max-width:900px) {
+      .container {
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: 8% 42% 42% 8%;
+          grid-gap:15px;
+          grid-template-areas:
+               "h h h h h h"
+               "t t t t t t"
+               "c c c c c c"
+               "f f f f f f";
+
+      }
 
     .recent-posts{
       display: grid;
@@ -202,6 +203,17 @@
 
 
     }
+    .title{
+        display: grid;
+        align-content: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+        justify-content: center;
+        object-fit: cover;
+        color:white;
+        border: 2px solid #FCB;
+        min-height:90vh;
+    }
 
 }
 
@@ -209,7 +221,7 @@
   @media (min-width:901px) {
     .container {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 8% 42% 42% 8%;
+        grid-template-rows: 5% 45% 42% 8%;
         grid-gap:15px;
         grid-template-areas:
              "h h h h h h"
@@ -226,6 +238,17 @@
       align-content: center;
 
 
+    }
+    .title{
+        display: grid;
+        align-content: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+        justify-content: center;
+        object-fit: cover;
+        color:white;
+        border: 2px solid #FCB;
+        min-height:90vh;
     }
 
   }
