@@ -393,9 +393,6 @@ and (min-device-width: 768px)
         background-color: black;
         background-position: center-center;
         
-        
-
-
         }
 
         .content{
@@ -404,8 +401,8 @@ and (min-device-width: 768px)
             text-align: center;
             justify-content: center;
             align-content: center;  
-            border: 2px solid red;
-            padding-top: 5vh;
+            border: 2px solid #40e0d0;
+            padding-top: 3vh;
            }
     }
 
