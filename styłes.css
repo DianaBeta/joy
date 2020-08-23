@@ -30,20 +30,21 @@
   max-width:100%;
   /*margin: 2vw;*/
   align-content: center;
-
-
 }
 
 .title{
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1small.jpg");
-    background-image: no-repeat;
-    justify-content: center;
+    background-image: url("images/banner1small.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color:white;
+    background-color: #464646;
     border: 2px solid #FCB;
-    min-height:95vh;
+    min-height:90vh;
+    
 }
 
 .image-posts
@@ -203,7 +204,7 @@
                "c c c c c c"
                "f f f f f f";
 
-      }
+       }
 
     .recent-posts{
       display: grid;
@@ -214,7 +215,7 @@
       border: 2px solid green;
 
 
-    }
+       }
     .title{
         display: grid;
         align-content: center;
@@ -227,19 +228,19 @@
         background-image: no-repeat;
         max-width: 100%;
         height: auto;
-    }
+        background-position: center-center;
+        }
     .content{
         display: grid;
         grid-gap: 15px;
         text-align: center;
         justify-content: center;
         align-content: center;  
+        border: 2px solid pink;
+        padding-top: 9vh;
     }
 
 }
-
-
-
 
 /* Portrait and Landscape */
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
@@ -259,7 +260,7 @@ and (min-device-width: 768px)
              "c c c c"
              "f f f f";
 
-    }
+       }
 
     .recent-posts{
         display: grid;
@@ -270,7 +271,7 @@ and (min-device-width: 768px)
         align-items: center;
         justify-content: center;
         border: 2px solid blue;
-      }
+       }
   
       .title{
           display: grid;
@@ -280,11 +281,12 @@ and (min-device-width: 768px)
           justify-content: center;
           color:white;
           border: 2px solid #FCB;
-          min-height:90vh;
+          min-height:70vh;
           height: auto;  
           background-image: no-repeat;
+          background-position: center-center;
   
-      }
+        }
       .content{
         display: grid;
         grid-gap: 15px;
@@ -293,49 +295,9 @@ and (min-device-width: 768px)
         align-content: center;  
         border: 2px solid red;
         padding-top: 9vh;
-    }
+       }
 
 }
-
-  /* Large Screens */
-  @media (min-width:901px) {
-    .container {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 5% 40% 45% 11%;
-        grid-gap:15px;
-        grid-template-areas:
-             "h h h h h h"
-             "t t t t t t"
-             "c c c c c c"
-             "f f f f f f";
-
-    }
-    .recent-posts{
-      display: grid;
-      grid-gap: 15px;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows:repeat(2,1fr);
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .title{
-        display: grid;
-        align-content: center;
-        text-align: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
-        justify-content: center;
-        object-fit: cover;
-        color:white;
-        border: 2px solid #FCB;
-        height: auto;
-        min-height:90vh;
-        height: auto;  
-        background-image: no-repeat;
-
-        }
-    }
 
          /* Portrait and Landscape */
 /* ----------- iPad ----------- */
@@ -354,7 +316,7 @@ and (min-device-width: 768px)
              "c c c c"
              "f f f f";
 
-    }
+        }
 
     .recent-posts{
         display: grid;
@@ -365,21 +327,22 @@ and (min-device-width: 768px)
         align-items: center;
         justify-content: center;
         border: 2px solid yellow;
-      }
+        }
   
       .title{
           display: grid;
           align-content: center;
           text-align: center;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1medium.jpg");
           justify-content: center;
           color:white;
           border: 2px solid #FCB;
-          min-height:80vh;
+          min-height:70vh;
           height: auto;  
           background-image: no-repeat;
+          background-position: center-center;
   
-      }
+       }
       .content{
         display: grid;
         grid-gap: 15px;
@@ -390,4 +353,59 @@ and (min-device-width: 768px)
         padding-top: 9vh;
         }
     }
- }
+    /* Large Screens */
+  @media (min-width:901px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 5% 40% 45% 11%;
+        grid-gap:15px;
+        grid-template-areas:
+             "h h h h h h"
+             "t t t t t t"
+             "c c c c c c"
+             "f f f f f f";
+
+        }
+    .recent-posts{
+      display: grid;
+      grid-gap: 15px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows:repeat(2,1fr);
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+        }
+
+    .title{
+        display: grid;
+        align-content: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+        justify-content: center;
+        object-fit: cover;
+        color:white;
+        border: 2px solid #FCB;
+        height: auto;
+        min-height:70vh;
+        height: auto;  
+        background-image: no-repeat;
+        background-size: cover;
+        background-color: black;
+        background-position: center-center;
+        
+        
+
+
+        }
+
+        .content{
+            display: grid;
+            grid-gap: 15px;
+            text-align: center;
+            justify-content: center;
+            align-content: center;  
+            border: 2px solid red;
+            padding-top: 5vh;
+           }
+    }
+
