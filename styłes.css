@@ -20,6 +20,7 @@
     box-sizing: border-box;
     align-content: center;
     border: 2px solid black;
+    background-color: white;
 }
 
 .recent-posts{
@@ -75,6 +76,8 @@
 
 #subscribe-text{
     font-size: 15px;
+    justify-content: center;
+    float: center;
 }
 .email{
     text-align: center;
@@ -90,9 +93,6 @@
     font-size: 12px;
     padding: 15px 37.5px;
 
-}
-#subscribe-text{
-    font-size: 12px;
 }
 
 .social-navbar{
@@ -110,6 +110,7 @@
 .social-navbar > ul li{
     list-style-type: none;
     border: 2px solid #FCB;
+    background-color: white;
 }
 
 #copyright{
@@ -177,6 +178,7 @@
     grid-area: f;
     border: 2px solid black;
     text-align: center;
+    color: black;
 }
 
 /*.container  {
@@ -209,6 +211,7 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows:repeat(2,1fr);
       align-content: center;
+      border: 2px solid green;
 
 
     }
@@ -231,6 +234,65 @@
         text-align: center;
         justify-content: center;
         align-content: center;  
+    }
+
+}
+
+
+
+
+/* Portrait and Landscape */
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+@media only screen 
+and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 5% 38% 47% 11%;
+        grid-gap:15px;
+        grid-template-areas:
+             "h h h h "
+             "t t t t"
+             "t t t t"
+             "c c c c"
+             "f f f f";
+
+    }
+
+    .recent-posts{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows:repeat(2,1fr);
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid blue;
+      }
+  
+      .title{
+          display: grid;
+          align-content: center;
+          text-align: center;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+          justify-content: center;
+          color:white;
+          border: 2px solid #FCB;
+          min-height:90vh;
+          height: auto;  
+          background-image: no-repeat;
+  
+      }
+      .content{
+        display: grid;
+        grid-gap: 15px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;  
+        border: 2px solid red;
+        padding-top: 9vh;
     }
 
 }
@@ -272,7 +334,59 @@
         height: auto;  
         background-image: no-repeat;
 
+        }
+
+         /* Portrait and Landscape */
+/* ----------- iPad ----------- */
+@media only screen 
+and (min-device-width: 768px) 
+  and (max-device-width: 1023px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 5% 38% 47% 11%;
+        grid-gap:15px;
+        grid-template-areas:
+             "h h h h "
+             "t t t t"
+             "c c c c"
+             "f f f f";
 
     }
 
-  }
+    .recent-posts{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows:repeat(2,1fr);
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid yellow;
+      }
+  
+      .title{
+          display: grid;
+          align-content: center;
+          text-align: center;
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+          justify-content: center;
+          color:white;
+          border: 2px solid #FCB;
+          min-height:80vh;
+          height: auto;  
+          background-image: no-repeat;
+  
+      }
+      .content{
+        display: grid;
+        grid-gap: 15px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;  
+        border: 2px solid red;
+        padding-top: 9vh;
+        }
+    }
+ }
