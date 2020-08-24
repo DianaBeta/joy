@@ -43,7 +43,7 @@
     color:white;
     background-color: #464646;
     border: 2px solid #FCB;
-    min-height:90vh;
+    height: 90vh;
     
 }
 
@@ -220,15 +220,16 @@
         display: grid;
         align-content: center;
         text-align: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1medium.jpg");
+        background-image: url("images/banner1medium.jpg");
         justify-content: center;
         color:white;
         border: 2px solid #FCB;
-        min-height:90vh;
+        height:90vh;
         background-image: no-repeat;
         max-width: 100%;
         height: auto;
         background-position: center-center;
+        height: 90vh;
         }
     .content{
         display: grid;
@@ -237,7 +238,8 @@
         justify-content: center;
         align-content: center;  
         border: 2px solid pink;
-        padding-top: 9vh;
+        margin: 6vh;
+        padding-top: 3vh;;
     }
 
 }
@@ -277,15 +279,14 @@ and (min-device-width: 768px)
           display: grid;
           align-content: center;
           text-align: center;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1.jpg");
+          background-image: url("images/banner1.jpg");
           justify-content: center;
           color:white;
           border: 2px solid #FCB;
-          min-height:70vh;
+          height: 85vh;
           height: auto;  
           background-image: no-repeat;
           background-position: center-center;
-  
         }
       .content{
         display: grid;
@@ -294,7 +295,7 @@ and (min-device-width: 768px)
         justify-content: center;
         align-content: center;  
         border: 2px solid red;
-        padding-top: 9vh;
+        margin: 4vh;
        }
 
 }
@@ -333,14 +334,14 @@ and (min-device-width: 768px)
           display: grid;
           align-content: center;
           text-align: center;
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/banner1medium.jpg");
+          background-image: url("images/banner1medium.jpg");
           justify-content: center;
           color:white;
           border: 2px solid #FCB;
-          min-height:70vh;
           height: auto;  
           background-image: no-repeat;
           background-position: center-center;
+          height: 80vh;
   
        }
       .content{
@@ -349,8 +350,8 @@ and (min-device-width: 768px)
         text-align: center;
         justify-content: center;
         align-content: center;  
-        border: 2px solid red;
-        padding-top: 9vh;
+        border: 2px solid #ff69b4;
+        margin: 5vh;
         }
     }
     /* Large Screens */
@@ -386,14 +387,12 @@ and (min-device-width: 768px)
         position: relative;
         color:white;
         border: 2px solid #FCB;
-        height: auto;
-        min-height:70vh;
-        height: auto;  
+        height: auto; 
         background-image: no-repeat;
         background-size: cover;
         background-color: black;
         background-position: center-center;
-        
+        height: 90vh;
         }
 
         .content{
@@ -403,7 +402,7 @@ and (min-device-width: 768px)
             justify-content: center;
             align-content: center;  
             border: 2px solid #40e0d0;
-            padding-top: 3vh;
+            margin: 6vh;
            }
     }
 
