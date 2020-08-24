@@ -1,0 +1,48 @@
+/*display the navbar horizontally with flex properties*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+/*removing bullets and margin and padding from the list, setting font-size and margin*/
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 12px;
+    margin-left: 1vw;
+  }
+
+  #navbar li{
+    margin-left:50px;
+    margin-right:1px;
+    border-color: solid black;
+  }
+
+  /*change color on hover*/
+  .navbar li >a:hover{
+      color:grey;
+  }
+
+   /*horizontal navigation*/
+ li {
+    float: left;
+  }
+
+/*removing bullets and margin and padding from the list, setting font-size and margin*/
+  li a {
+    display: block;
+    color:black;
+    padding: 20px 16px;
+    background-color: white;
+    text-decoration: none;
+    margin-top: 2vw;
+
+  }
+/* Hide the link that closes and open the navbar on small screens*/
+  #navbar .icon {
+      display: none;
+  }
+

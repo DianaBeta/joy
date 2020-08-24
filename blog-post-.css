@@ -1,0 +1,35 @@
+.post-box{
+display: grid;
+grid-template-rows: 30% 55% 15%;
+grid-template-areas:
+"p"
+"c"
+"f";
+padding-top: 5vh;
+padding-left: 20vh;
+padding-right: 20vh;
+
+}
+
+.post-image{
+    height: 40vh;
+}
+
+.post-header{
+grid-area: p;
+border: 2px solid green;
+display: grid;
+grid-template-columns:60% 40% ;
+border:2px solid blue;
+justify-items: center;
+}
+
+.post-content{
+grid-area: c;
+border: 2px solid yellow;
+}
+
+.footer{
+grid-area: f;
+border: 2px solid orange;
+}
