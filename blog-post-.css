@@ -1,27 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 .post-box{
 display: grid;
-grid-template-rows: 30% 55% 15%;
 grid-template-areas:
 "p"
 "c"
 "f";
-padding-top: 5vh;
-padding-left: 20vh;
-padding-right: 20vh;
-
+margin-top: 2vh;
+margin-left: 20vh;
+margin-right: 20vh;
+justify-items: center;
+border:2px solid black;
+font-family: 'Cabin', sans-serif;
 }
 
+.navbar{
+    font-family: 'Cabin', sans-serif;  
+    display: block;
+    color:black;
+    background-color: white;
+    text-decoration: none;
+}
 .post-image{
-    height: 40vh;
+    height: 63vh;
+}
+
+.about{
+    text-align: justify;
+  text-justify: inter-word;
+}
+.avatar{
+    border-radius: 50%;
+    height: 4vh;
+}
+
+.next-post{
+ justify-items: right;   
+}
+.ingredients{
+    display:inline;
+    justify-items: left;
+    list-style-position:inside;
 }
 
 .post-header{
 grid-area: p;
 border: 2px solid green;
-display: grid;
-grid-template-columns:60% 40% ;
-border:2px solid blue;
-justify-items: center;
 }
 
 .post-content{

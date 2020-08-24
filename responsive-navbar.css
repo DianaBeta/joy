@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 /*display the navbar horizontally with flex properties*/
 .navbar{
     display: flex;
@@ -40,9 +41,5 @@
     text-decoration: none;
     margin-top: 2vw;
 
-  }
-/* Hide the link that closes and open the navbar on small screens*/
-  #navbar .icon {
-      display: none;
   }
 
