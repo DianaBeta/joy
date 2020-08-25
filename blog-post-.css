@@ -3,19 +3,25 @@
 .post-box{
 display: grid;
 grid-template-areas:
-"p"
-"c"
+"h"
+"i"
+"s"
+"f"
+"a"
+"in"
+"m"
+"ab"
+"n"
 "f";
 margin-top: 2vh;
 margin-left: 20vh;
 margin-right: 20vh;
-justify-items: center;
 border:2px solid black;
-font-family: 'Cabin', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .navbar{
-    font-family: 'Cabin', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
     display: block;
     color:black;
     background-color: white;
@@ -23,13 +29,16 @@ font-family: 'Cabin', sans-serif;
 }
 .post-image{
     height: 63vh;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
 }
 
 .about{
     text-align: justify;
   text-justify: inter-word;
 }
-.avatar{
+.avatar-picture{
     border-radius: 50%;
     height: 4vh;
 }
@@ -38,21 +47,47 @@ font-family: 'Cabin', sans-serif;
  justify-items: right;   
 }
 .ingredients{
-    display:inline;
-    justify-items: left;
     list-style-position:inside;
 }
 
 .post-header{
-grid-area: p;
+grid-area: h;
 border: 2px solid green;
 }
 
-.post-content{
-grid-area: c;
+.post-image{
+grid-area: i;
 border: 2px solid yellow;
 }
 
+.subtitle{
+grid-area:s;
+border: 2px solid blue;
+}
+
+.avatar{
+grid-area: a;
+border: 2px solid red;
+}
+
+.ingredients{
+grid-area:in;
+border: 2px solid orange;
+}
+
+.method{
+grid-area:m;
+border: 2px solid pink;
+}
+
+.about{
+grid-area:ab;
+border: 2px solid purple;
+}
+.next{
+grid-area:n;
+border: 2px solid turquoise;
+    }
 .footer{
 grid-area: f;
 border: 2px solid orange;

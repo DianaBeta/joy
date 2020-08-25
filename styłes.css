@@ -10,7 +10,7 @@
          "c"
          "f";
     padding:none;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     box-sizing: border-box;
     align-content: center;
@@ -51,7 +51,7 @@
 }
 
 .posts-title{
-    font-size: 20;
+    font-size: 15px;
     margin-bottom: 5vw;
     border: 2px solid #FCB;
 }
@@ -67,7 +67,6 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-
 }
 
 #subscribe-text{
@@ -122,6 +121,7 @@
 
 .title{
     grid-area:t;
+    font-size: 25px;
 
 }
 
