@@ -48,9 +48,20 @@
       margin: 6vh;
       padding-top: 3vh;*/
   }
-
-  
- 
+  .post-box{
+    margin:2vh;
+    display: grid;
+    grid-template-areas:
+    "h h h"
+    "i"
+    "s"
+    "a"
+    "in" 
+    "m"
+    "ab"
+    "n"
+    "f";
+    }
 
 }
 
@@ -109,6 +120,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
       border: 2px solid red;
       margin: 4vh;
      } */
+     .post-box{
+      display: grid;
+      grid-template-areas:
+      "h h"
+      "i i"
+      "s s"
+      "a a"
+      "in in" 
+      "m m"
+      "ab ab"
+      "n n"
+      "f f";
+      }
 
 }
 
@@ -166,6 +190,18 @@ and (-webkit-min-device-pixel-ratio: 1) {
       margin: 5vh;
       } */
      }
+     .post-box{
+      margin:2vh;
+      display: grid;
+      grid-template-areas:
+      "h h h h"
+      "i i s s"
+      "a a a a"
+      "in in m m"
+      "ab ab ab ab"
+      "n n n n"
+      "f f f f";
+      }
   }  
   /* Large Screens */
 @media (min-width:901px) and (max-width:1200px) { 
@@ -216,6 +252,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
           padding: 4vh;
          } */
        }
+       .post-box{
+        margin:2vh;
+        display: grid;
+        grid-template-areas:
+        "h h h h h h"
+        "i i i s s s"
+        "a a a a a a"
+        "in in in m m m"
+        "ab ab ab ab ab ab"
+        "n n n n n n"
+        "f f f f f f ";
+        }
+
   }
   /* Ever larger Screens */
   @media (min-width:1200px){
@@ -269,6 +318,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
             
             } */
             .post-box{
+              margin:2vh;
               display: grid;
               grid-template-areas:
               "h h h h h h"
