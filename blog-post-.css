@@ -28,6 +28,7 @@ grid-gap:1vh;
     background-color: white;
     text-decoration: none;
 }
+
 .post-image{
     height: 63vh;
     max-width: 100%;
@@ -39,6 +40,7 @@ grid-gap:1vh;
 .about{
   text-align: justify;
 }
+
 .avatar-picture{
     border-radius: 50%;
     height: 4vh;
@@ -47,6 +49,7 @@ grid-gap:1vh;
 .next-post{
  justify-items: left;
 }
+
 .ingredients{
 list-style-position:inside;
 }
@@ -54,7 +57,6 @@ list-style-position:inside;
 .post-header{
 grid-area: h;
 margin:auto;
-
 }
 
 .post-image{
@@ -75,7 +77,6 @@ grid-area: a;
 
 .ingredients{
 grid-area:in;
-
 }
 
 .method{
@@ -84,12 +85,12 @@ grid-area:m;
 
 .about{
 grid-area:ab;
-
 }
+
 .next{
 grid-area:n;
-    }
+}
+
 .footer{
 grid-area: f;
-
 }

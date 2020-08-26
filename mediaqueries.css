@@ -1,15 +1,14 @@
 
 /* Medium Screens */
 @media (min-width: 600px) and (max-width:900px) {
-    .container {
-        grid-gap:15px;
-        grid-template-areas:
-             "h h h h h h"
-             "t t t t t t"
-             "c c c c c c"
-             "f f f f f f";
-
-     }
+  .container {
+    grid-gap:15px;
+    grid-template-areas:
+    "h h h h h h"
+    "t t t t t t"
+    "c c c c c c"
+    "f f f f f f";
+  }
 
  .recent-posts{
     display: grid;
@@ -18,11 +17,10 @@
     grid-template-rows:repeat(2,1fr);
     align-content: center;
     border: 2px solid green;
-     }
+  }
     
    .title{
-    
-      background-image: url("images/banner1medium.jpg");
+    background-image: url("images/banner1medium.jpg");
   
   }
   .post-box{
@@ -36,7 +34,7 @@
     "ab ab"
     "n n"
     "f f ";
-    }
+  }
 }
 
 
@@ -50,45 +48,41 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   .container {
     
-      grid-gap:15px;
-      grid-template-areas:
-           "h h h h "
-           "t t t t"
-           "t t t t"
-           "c c c c"
-           "f f f f";
-
-     }
+    grid-gap:15px;
+    grid-template-areas:
+    "h h h h "
+    "t t t t"
+    "t t t t"
+    "c c c c"
+    "f f f f";
+  }
 
  .recent-posts{
-      display: grid;
-      grid-gap: 15px;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows:repeat(2,1fr);
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid blue;
-     }
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2,1fr);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+  }
 
     .title{
-       
-        background-image: url("images/banner1.jpg");
-       
-      }
+    background-image: url("images/banner1.jpg");
+  }
   
-     .post-box{
-      display: grid;
-      grid-template-areas:
-      "h h "
-      "i s "
-      "a a "
-      "in m"
-      "ab ab"
-      "n n"
-      "f f ";
-      
-      }
+  .post-box{
+    display: grid;
+    grid-template-areas:
+    "h h"
+    "i s"
+    "a a"
+    "in m"
+    "ab ab"
+    "n n"
+    "f f ";  
+  }
 
 }
 
@@ -100,56 +94,15 @@ and (max-device-width: 1023px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
   .container {
-   
-      grid-gap:15px;
-      grid-template-areas:
-           "h h h h "
-           "t t t t"
-           "c c c c"
-           "f f f f";
+    grid-gap:15px;
+    grid-template-areas:
+      "h h h h "
+      "t t t t"
+      "c c c c"
+      "f f f f";
 
-      }
+  }
 
-  .recent-posts{
-      display: grid;
-      grid-gap: 15px;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows:repeat(2,1fr);
-      align-content: center;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid yellow;
-      }
-
-   .title{
-      
-        background-image: url("images/banner1medium.jpg");
-    
-     }
-     .post-box{
-      margin:2vh;
-      display: grid;
-      grid-template-areas:
-      "h h "
-      "i s"
-      "a a "
-      "in m"
-      "ab ab "
-      "n n"
-      "f f";
-      }
-  }  
-  /* Large Screens */
-@media (min-width:901px) and (max-width:1200px) { 
-  .container {
-      grid-gap:15px;
-      grid-template-areas:
-           "h h h h h h"
-           "t t t t t t"
-           "c c c c c c"
-           "f f f f f f";
-
-      }
   .recent-posts{
     display: grid;
     grid-gap: 15px;
@@ -158,70 +111,101 @@ and (-webkit-min-device-pixel-ratio: 1) {
     align-content: center;
     align-items: center;
     justify-content: center;
-      }
-
- .title{
-     
-      background-image:url("images/banner1.jpg");
-    
-       }
-       .post-box{
-        margin:2vh;
-        display: grid;
-        grid-template-areas:
-        "h h "
-        "i s "
-        "a a "
-        "in m"
-        "ab ab"
-        "n n"
-        "f f ";
-        }
-        
-
+    border: 2px solid yellow;
   }
+
+  .title{
+    background-image: url("images/banner1medium.jpg");
+  }
+  .post-box{
+    margin:2vh;
+    display: grid;
+    grid-template-areas:
+    "h h "
+    "i s"
+    "a a "
+    "in m"
+    "ab ab "
+    "n n"
+    "f f";
+  }
+}  
+
+  /* Large Screens */
+@media (min-width:901px) and (max-width:1200px) { 
+  .container {
+    grid-gap:15px;
+    grid-template-areas:
+      "h h h h h h"
+      "t t t t t t"
+      "c c c c c c"
+       "f f f f f f";
+  }
+  .recent-posts{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2,1fr);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title{
+    background-image:url("images/banner1.jpg");
+  }
+  .post-box{
+    margin:2vh;
+    display: grid;
+    grid-template-areas:
+    "h h "
+    "i s "
+    "a a "
+    "in m"
+    "ab ab"
+    "n n"
+    "f f ";
+  }
+}
+
   /* Ever larger Screens */
   @media (min-width:1200px){
-    .container {
-       
-         grid-gap:15px;
-         grid-template-areas:
-              "h h h h "
-              "t t t t "
-              "c c c c "
-              "f f f f ";
-         }
+  .container {
+    grid-gap:15px;
+    grid-template-areas:
+      "h h h h "
+      "t t t t "
+      "c c c c "
+      "f f f f ";
+  }
 
-     .recent-posts{
-       display: grid;
-       grid-gap: 15px;
-       grid-template-columns: repeat(3, 1fr);
-       grid-template-rows:repeat(2,1fr);
-       align-content: center;
-       align-items: center;
-       justify-content: center;
-         }
+  .recent-posts{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(2,1fr);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
    
-     .title{
-       
-         background-image:url("images/banner1.jpg");
-         
-         }
+  .title{
+    background-image:url("images/banner1.jpg");
+  }
    
       
-            .post-box{
-              margin:2vh;
-              display: grid;
-              grid-template-areas:
-              "h h"
-              "i s "
-              "a a"
-              "in m"
-              "ab ab"
-              "n n"
-              "f f";
-            margin-left: 20vh;
-            margin-right: 20vh;
-              }
-            
+  .post-box{
+    margin:2vh;
+    display: grid;
+    grid-template-areas:
+      "h h"
+      "i s "
+      "a a"
+      "in m"
+      "ab ab"
+      "n n"
+      "f f";
+    margin-left: 20vh;
+    margin-right: 20vh;
   }
+}
