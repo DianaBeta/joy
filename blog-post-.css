@@ -13,11 +13,12 @@ grid-template-areas:
 "n"
 "f";
 margin-top: 2vh;
-margin-left: 20vh;
-margin-right: 20vh;
-border:2px solid black;
+margin-left: 2vh;
+margin-right: 2vh;
+padding: 2vh;
 font-family: 'Roboto', sans-serif;
 justify-content: center;
+grid-gap:1vh;
 }
 
 .navbar{
@@ -32,11 +33,11 @@ justify-content: center;
     max-width: 100%;
     height: auto;
     justify-content: center;
+    margin:auto;
 }
 
 .about{
   text-align: justify;
-  text-justify: inter-word;
 }
 .avatar-picture{
     border-radius: 50%;
@@ -44,51 +45,51 @@ justify-content: center;
 }
 
 .next-post{
- justify-items: right;   
+ justify-items: left;
 }
 .ingredients{
-    list-style-position:inside;
+list-style-position:inside;
 }
 
 .post-header{
 grid-area: h;
-border: 2px solid green;
+margin:auto;
+
 }
 
 .post-image{
 grid-area: i;
-border: 2px solid yellow;
+text-justify: center;
 }
 
 .subtitle{
 grid-area:s;
-border: 2px solid blue;
+text-justify: center;
+margin:auto;
+padding: auto;
 }
 
 .avatar{
 grid-area: a;
-border: 2px solid red;
 }
 
 .ingredients{
 grid-area:in;
-border: 2px solid orange;
+
 }
 
 .method{
 grid-area:m;
-border: 2px solid pink;
 }
 
 .about{
 grid-area:ab;
-border: 2px solid purple;
+
 }
 .next{
 grid-area:n;
-border: 2px solid turquoise;
     }
 .footer{
 grid-area: f;
-border: 2px solid orange;
+
 }

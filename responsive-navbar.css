@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-/*display the navbar horizontally with flex properties*/
+/*display the navbar with flex properties*/
 .navbar{
     display: flex;
     flex-direction: row;
     background-color: white;
-}
+} 
 
 /*removing bullets and margin and padding from the list, setting font-size and margin*/
 #navbar {
@@ -27,10 +27,11 @@
       color:grey;
   }
 
-   /*horizontal navigation*/
+   /*horizontal navigation */
  li {
     float: left;
   }
+
 
 /*removing bullets and margin and padding from the list, setting font-size and margin*/
   li a {

@@ -14,7 +14,6 @@
     font-size: 14px;
     box-sizing: border-box;
     align-content: center;
-    border: 2px solid black;
     background-color: white;
 }
 
@@ -24,7 +23,7 @@
   flex: 100%;
   max-width:100%;
   align-content: center;
-  border: 2px solid orange;
+  font-size: 14px;
 
 }
 
@@ -38,9 +37,7 @@
     background-size: cover;
     color:white;
     background-color: #464646;
-    border: 2px solid #FCB;
     height: 90vh;
-    
 }
 
 .image-posts
@@ -53,12 +50,9 @@
 .posts-title{
     font-size: 15px;
     margin-bottom: 5vw;
-    border: 2px solid #FCB;
+    
 }
-.recent-posts{
-    font-size: 14px;
-    border: 2px solid #FCB;
-}
+
 .subscribe{
     font-size: 20px;
     text-align: center;
@@ -104,13 +98,11 @@
 
 .social-navbar > ul li{
     list-style-type: none;
-    border: 2px solid #FCB;
     background-color: white;
 }
 
 #copyright{
     margin-bottom: 3vw;
-    border: 2px solid #FCB;
 
 }
 
@@ -134,9 +126,10 @@
 
 .footer {
     grid-area: f;
-    border: 2px solid black;
     text-align: center;
     color: black;
 }
+
+
 
 

@@ -1,8 +1,7 @@
+
 /* Medium Screens */
 @media (min-width: 600px) and (max-width:900px) {
     .container {
-      /*  grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 5% 38% 47% 11%;*/
         grid-gap:15px;
         grid-template-areas:
              "h h h h h h"
@@ -19,50 +18,25 @@
     grid-template-rows:repeat(2,1fr);
     align-content: center;
     border: 2px solid green;
-
-
      }
     
    .title{
-    /* display: grid;
-      align-content: center;
-      text-align: center; */
+    
       background-image: url("images/banner1medium.jpg");
-    /*  justify-content: center;
-      color:white;
-      border: 2px solid #FCB;
-      height:90vh;
-      background-image: no-repeat;
-      max-width: 100%;
-      height: auto;
-      background-position: center-center;
-      height: 90vh; 
-      }
-  .content{
-      display: grid;
-      grid-gap: 15px;
-      text-align: center;
-      justify-content: center;
-      align-content: center;  
-      border: 2px solid pink;
-      margin: 6vh;
-      padding-top: 3vh;*/
+  
   }
   .post-box{
     margin:2vh;
     display: grid;
     grid-template-areas:
-    "h h h"
-    "i"
-    "s"
-    "a"
-    "in" 
-    "m"
-    "ab"
-    "n"
-    "f";
+    "h h "
+    "i s "
+    "a a "
+    "in m"
+    "ab ab"
+    "n n"
+    "f f ";
     }
-
 }
 
 
@@ -75,8 +49,7 @@ and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
 
   .container {
-    /*  grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 5% 38% 47% 11%;*/
+    
       grid-gap:15px;
       grid-template-areas:
            "h h h h "
@@ -99,39 +72,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
      }
 
     .title{
-       /* display: grid;
-        align-content: center;
-        text-align: center; */
+       
         background-image: url("images/banner1.jpg");
-       /* justify-content: center;
-        color:white;
-        border: 2px solid #FCB;
-        height: 85vh;
-        height: auto;  
-        background-image: no-repeat;
-        background-position: center-center; */
+       
       }
-   /* .content{
-      display: grid;
-      grid-gap: 15px;
-      text-align: center;
-      justify-content: center;
-      align-content: center;  
-      border: 2px solid red;
-      margin: 4vh;
-     } */
+  
      .post-box{
       display: grid;
       grid-template-areas:
-      "h h"
-      "i i"
-      "s s"
-      "a a"
-      "in in" 
-      "m m"
+      "h h "
+      "i s "
+      "a a "
+      "in m"
       "ab ab"
       "n n"
-      "f f";
+      "f f ";
+      
       }
 
 }
@@ -144,8 +100,7 @@ and (max-device-width: 1023px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
   .container {
-   /*   grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 5% 38% 47% 11%; */
+   
       grid-gap:15px;
       grid-template-areas:
            "h h h h "
@@ -167,40 +122,21 @@ and (-webkit-min-device-pixel-ratio: 1) {
       }
 
    .title{
-      /*  display: grid;
-        align-content: center;
-        text-align: center; */
+      
         background-image: url("images/banner1medium.jpg");
-      /*  justify-content: center;
-        color:white;
-        border: 2px solid #FCB;
-        height: auto;  
-        background-image: no-repeat;
-        background-position: center-center;
-        height: 80vh;
-
-     }
-    .content{
-      display: grid;
-      grid-gap: 15px;
-      text-align: center;
-      justify-content: center;
-      align-content: center;  
-      border: 2px solid #ff69b4;
-      margin: 5vh;
-      } */
+    
      }
      .post-box{
       margin:2vh;
       display: grid;
       grid-template-areas:
-      "h h h h"
-      "i i s s"
-      "a a a a"
-      "in in m m"
-      "ab ab ab ab"
-      "n n n n"
-      "f f f f";
+      "h h "
+      "i s"
+      "a a "
+      "in m"
+      "ab ab "
+      "n n"
+      "f f";
       }
   }  
   /* Large Screens */
@@ -225,52 +161,29 @@ and (-webkit-min-device-pixel-ratio: 1) {
       }
 
  .title{
-     /*  display: grid;
-      align-content: center;
-      text-align: center; */
+     
       background-image:url("images/banner1.jpg");
-    /*  justify-content: center;
-      background-size: cover;
-      position: relative;
-      color:white;
-      border: 2px solid #FCB;
-      height: auto; 
-      background-image: no-repeat;
-      background-size: cover;
-      background-color: black;
-      background-position: center-center;
-      height: 80vh; 
-      }
-
-      .content{
-          display: grid;
-          grid-gap: 15px;
-          text-align: center;
-          justify-content: center;
-          align-content: center;  
-          border: 2px solid orange;
-          padding: 4vh;
-         } */
+    
        }
        .post-box{
         margin:2vh;
         display: grid;
         grid-template-areas:
-        "h h h h h h"
-        "i i i s s s"
-        "a a a a a a"
-        "in in in m m m"
-        "ab ab ab ab ab ab"
-        "n n n n n n"
-        "f f f f f f ";
+        "h h "
+        "i s "
+        "a a "
+        "in m"
+        "ab ab"
+        "n n"
+        "f f ";
         }
+        
 
   }
   /* Ever larger Screens */
   @media (min-width:1200px){
     .container {
-       /*  grid-template-columns: repeat(3, 1fr);
-         grid-template-rows: 5% 30% 54% 11%; */
+       
          grid-gap:15px;
          grid-template-areas:
               "h h h h "
@@ -290,44 +203,25 @@ and (-webkit-min-device-pixel-ratio: 1) {
          }
    
      .title{
-       /*  display: grid;
-         align-content: center;
-         text-align: center; */
+       
          background-image:url("images/banner1.jpg");
-         /*justify-content: center;
-         background-size: cover;
-         position: relative;
-         color:white;
-         border: 2px solid #FCB;
-         height: auto; 
-         background-image: no-repeat;
-         background-size: cover;
-         background-color: black;
-         background-position: center-center;
-         height: 90vh; */
+         
          }
    
-       /*  .content{
-             display: grid;
-             grid-gap: 15px;
-             text-align: center;
-             justify-content: center;
-             align-content: center;  
-             border: 2px solid #40e0d0;
-             padding-top: 10vh;
-            
-            } */
+      
             .post-box{
               margin:2vh;
               display: grid;
               grid-template-areas:
-              "h h h h h h"
-              "i i i s s s"
-              "a a a a a a"
-              "in in in m m m"
-              "ab ab ab ab ab ab"
-              "n n n n n n"
-              "f f f f f f ";
+              "h h"
+              "i s "
+              "a a"
+              "in m"
+              "ab ab"
+              "n n"
+              "f f";
+            margin-left: 20vh;
+            margin-right: 20vh;
               }
             
   }
