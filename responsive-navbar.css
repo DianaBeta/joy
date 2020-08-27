@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-/*display the navbar with flex properties*/
+/*display the navbar with flex properties */
 .navbar{
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
       color:grey;
   }
 
-   /*horizontal navigation */
+   /*horizontal navigation*/
  li {
     float: left;
   }
