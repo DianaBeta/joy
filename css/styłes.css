@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-
+@import "../css/styłes.css";
+@import "../css/blog-post-.css";
+@import "../css/mediaqueries.css";
+@import "../css/responsive-navbar.css";
 
 .container {
     display: grid;
@@ -15,6 +18,7 @@
     box-sizing: border-box;
     align-content: center;
     background-color: white;
+    color: #333;
 }
 
 .recent-posts{
@@ -24,18 +28,19 @@
     max-width:100%;
     align-content: center;
     font-size: 14px;
+    
 }
 
 .title{
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: url("images/banner1small.jpg");
+    background-image: url("../images/banner1small.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
-    background-color: #464646;
+    background-color: #333;
     height: 90vh;
 }
 
@@ -44,6 +49,7 @@
     max-height: 100%;
     justify-content: center;
     background-color: #FF8096; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .posts-title{

@@ -1,3 +1,6 @@
+@import "../css/styłes.css";
+@import "../css/blog-post-.css";
+@import "../css/responsive-navbar.css";
 
 /* Medium Screens */
 @media (min-width: 600px) and (max-width:900px) {
@@ -16,11 +19,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows:repeat(2,1fr);
     align-content: center;
-    border: 2px solid green;
+    
   }
     
    .title{
-    background-image: url("images/banner1medium.jpg");
+    background-image: url("../images/banner1medium.jpg");
   
   }
   .post-box{
@@ -65,11 +68,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     align-content: center;
     align-items: center;
     justify-content: center;
-    border: 2px solid blue;
+  
   }
 
     .title{
-    background-image: url("images/banner1.jpg");
+    background-image: url("../images/banner1.jpg");
   }
   
   .post-box{
@@ -111,11 +114,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
     align-content: center;
     align-items: center;
     justify-content: center;
-    border: 2px solid yellow;
+    
   }
 
   .title{
-    background-image: url("images/banner1medium.jpg");
+    background-image: url("../images/banner1medium.jpg");
   }
   .post-box{
     margin:2vh;
@@ -152,7 +155,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   }
 
   .title{
-    background-image:url("images/banner1.jpg");
+    background-image:url("../images/banner1.jpg");
   }
   .post-box{
     margin:2vh;
@@ -190,7 +193,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   }
    
   .title{
-    background-image:url("images/banner1.jpg");
+    background-image:url("../images/banner1.jpg");
   }
    
       
@@ -207,5 +210,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
       "f f";
     margin-left: 20vh;
     margin-right: 20vh;
+    color: #333;
   }
 }

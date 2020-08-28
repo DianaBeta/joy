@@ -52,11 +52,18 @@ grid-gap:1vh;
 
 .ingredients{
 list-style-position:inside;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .post-header{
 grid-area: h;
 margin:auto;
+color:#F67984;
+}
+
+.toast-title{
+color:#F67984;   
 }
 
 .post-image{
@@ -77,10 +84,14 @@ grid-area: a;
 
 .ingredients{
 grid-area:in;
+padding-top: 1vh;
 }
 
 .method{
 grid-area:m;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+padding:2vh;
+padding-right: 2vh;
 }
 
 .about{
